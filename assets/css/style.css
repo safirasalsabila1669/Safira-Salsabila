@@ -1,0 +1,106 @@
+.header {
+    padding: 30px 50px;
+}
+
+.bg-green {
+    background-color: aqua;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    gap: 30px; /* untuk jarak antar elemen */
+    padding: 100px 150px;
+    justify-content: center;
+    background-color: rgb(228, 94, 217);
+}
+
+.hero-picture img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 4px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    font-weight: bold;
+    background-color: rgb(255, 0, 85);
+}
+
+.motto-box {
+    margin-top: 40px;
+    border: 4px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 0, 221);
+}
+
+.motto-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.data-portofolio {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.data-diri {
+    width: 50%;
+}
+
+.riwayat-pendidikan-data {
+    width: 50%;
+}
+
+.riwayat-pendidikan-data {
+    border-left:  3px solid #545454;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.riwayat-pendidikan-data {
+    margin: 0;
+}
+
+/*Untuk responsive di HP */
+@media screen and (max-width: 900px) {
+    .hero {
+        display: block;
+        text-align: center;
+    }
+    .data-portofolio {
+        display: block;
+        margin: 50px 100px;
+    }
+    .data-diri {
+        margin-bottom: 50px;
+    }
+    .riwayat-pendidikan {
+        margin-bottom: 50px;
+    }
+
+}
